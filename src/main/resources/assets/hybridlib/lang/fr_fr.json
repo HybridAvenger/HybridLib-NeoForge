@@ -1,0 +1,13 @@
+{
+  "item.hybridlib.nether_ingot": "Lingot du Néant",
+  "itemGroup.mtgroup": "Mods MassTech",
+  "item.hybridlib.tech_ingot": "Lingot de technologie",
+  "item.hybridlib.euclase_gem": "Euclase Gemme",
+  "item.hybridlib.raw_tech": "Technologie brute",
+  "item.hybridlib.double_netherite_ingot": "Lingot de Netherite double",
+  "block.hybridlib.nether_star_block": "Bloc étoile du Néant",
+  "block.hybridlib.tech_ore": "Minerai de technologie",
+  "block.hybridlib.deepslate_tech_ore": "Minerai technologique Deepslate",
+  "block.hybridlib.compressed_obsidian": "Obisidienne compressée",
+  "block.hybridlib.tech_block": "Bloc de technologie"
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "hybridlib:tech_ore",
+    "hybridlib:deepslate_tech_ore",
+    "hybridlib:nether_star_block",
+    "hybridlib:compressed_obsidian",
+    "hybridlib:euclase_ore",
+    "hybridlib:deepslate_euclase_ore",
+    "hybridlib:tech_block"
+  ]
+}

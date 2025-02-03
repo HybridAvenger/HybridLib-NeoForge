@@ -78,7 +78,16 @@ public class HybridLib
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ItemRegistry.EUCLASE_GEM);
+            event.accept(ItemRegistry.NETHER_INGOT);
+            event.accept(ItemRegistry.RAW_TECH);
+            event.accept(ItemRegistry.TECH_INGOT);
+        }
 
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(BlockRegistry.TECH_BLOCK);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

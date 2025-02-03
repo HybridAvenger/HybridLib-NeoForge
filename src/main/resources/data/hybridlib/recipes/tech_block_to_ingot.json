@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hybridlib:tech_block"
+    }
+  ],
+  "result": {
+    "item": "hybridlib:tech_ingot",
+    "count": 9
+  }
+}

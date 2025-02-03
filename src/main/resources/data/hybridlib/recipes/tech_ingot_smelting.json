@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "hybridlib:raw_tech"
+  },
+  "result": "hybridlib:tech_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}
