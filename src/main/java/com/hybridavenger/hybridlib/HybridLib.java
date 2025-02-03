@@ -1,5 +1,6 @@
 package com.hybridavenger.hybridlib;
 
+import com.hybridavenger.hybridlib.block.BlockRegistry;
 import com.hybridavenger.hybridlib.item.ItemRegistry;
 import org.slf4j.Logger;
 
@@ -60,6 +61,7 @@ public class HybridLib
         NeoForge.EVENT_BUS.register(this);
 
         ItemRegistry.ITEMS.register(modEventBus);
+        BlockRegistry.BLOCKS.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
