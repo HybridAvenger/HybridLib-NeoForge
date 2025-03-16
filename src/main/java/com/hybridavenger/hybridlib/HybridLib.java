@@ -4,8 +4,7 @@ import com.hybridavenger.hybridlib.block.BlockRegistry;
 import com.hybridavenger.hybridlib.item.ItemRegistry;
 
 
-
-
+import com.hybridavenger.hybridlib.item.ModCreativeModTabs;
 import net.minecraft.world.item.CreativeModeTabs;
 
 import net.neoforged.api.distmarker.Dist;
@@ -46,11 +45,13 @@ public class HybridLib
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModTabs.register(modEventBus);
+
         ItemRegistry.ITEMS.register(modEventBus);
         BlockRegistry.BLOCKS.register(modEventBus);
 
         // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
+
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -62,21 +63,7 @@ public class HybridLib
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ItemRegistry.EUCLASE_GEM);
-            event.accept(ItemRegistry.NETHER_INGOT);
-            event.accept(ItemRegistry.RAW_TECH);
-            event.accept(ItemRegistry.TECH_INGOT);
-            event.accept(ItemRegistry.DOUBLE_NETHERITE_INGOT);
-            event.accept(BlockRegistry.TECH_BLOCK);
-            event.accept(BlockRegistry.TECH_ORE);
-            event.accept(BlockRegistry.EUCLASE_ORE);
-            event.accept(BlockRegistry.AETHERIUM_ORE);
-        }
 
-    }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent

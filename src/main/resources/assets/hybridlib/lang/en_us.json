@@ -1,6 +1,6 @@
 {
   "item.hybridlib.nether_ingot": "Nether Ingot",
-  "itemGroup.mtgroup": "MassTech Mods",
+  "creativetab.hybridlib.hybridtab": "Hybrid Library Mod",
   "item.hybridlib.tech_ingot": "Tech Ingot",
   "item.hybridlib.euclase_gem": "Euclase Gem",
   "item.hybridlib.raw_tech": "Raw Tech",
@@ -9,5 +9,10 @@
   "block.hybridlib.tech_ore": "Tech Ore",
   "block.hybridlib.deepslate_tech_ore": "Deepslate Tech Ore",
   "block.hybridlib.compressed_obsidian": "Compressed Obsidian",
-  "block.hybridlib.tech_block": "Block of Tech"
+  "block.hybridlib.tech_block": "Block of Tech",
+  "item.hybridlib.aetherium_gem": "Aetherium Gem",
+  "item.hybridlib.aetherium_gem_fragment": "Aetherium Gem Fragment",
+  "block.hybridlib.aetherium_ore": "Aetherium Ore",
+  "block.hybridlib.euclase_ore": "Euclase Ore",
+  "block.hybridlib.deepslate_euclase_ore": "Deepslate Euclase Ore"
 }

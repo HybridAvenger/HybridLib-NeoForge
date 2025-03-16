@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_tech": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hybridlib:tech_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hybridlib:tech_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tech"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hybridlib:tech_block"
+    ]
+  }
+}

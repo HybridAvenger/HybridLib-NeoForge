@@ -17,6 +17,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ItemRegistry.EUCLASE_GEM.get());
         basicItem(ItemRegistry.RAW_TECH.get());
         basicItem(ItemRegistry.AETHERIUM_GEM_FRAGMENT.get());
+        basicItem(ItemRegistry.DOUBLE_NETHERITE_INGOT.get());
         basicItem(ItemRegistry.AETHERIUM_GEM.get());
         basicItem(ItemRegistry.NETHER_INGOT.get());
         basicItem(ItemRegistry.TECH_INGOT.get());
