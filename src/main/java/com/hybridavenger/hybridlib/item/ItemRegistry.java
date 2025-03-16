@@ -20,6 +20,10 @@ public class ItemRegistry {
     public static final DeferredItem<Item> NETHER_INGOT = ITEMS.register("nether_ingot",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> AETHERIUM_GEM = ITEMS.register("aetherium_gem",
+            () -> new Item(new Item.Properties()));
+
+
 
     //Raw
     public static final DeferredItem<Item> RAW_TECH = ITEMS.register("raw_tech",
@@ -27,7 +31,12 @@ public class ItemRegistry {
 
 
 
-    //Block2Item
+    //Others
+    public static final DeferredItem<Item> DOUBLE_NETHERITE_INGOT = ITEMS.register("double_netherite_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> AETHERIUM_GEM_FRAGMENT = ITEMS.register("aetherium_gem_fragment",
+            () -> new Item(new Item.Properties()));
 
 
 

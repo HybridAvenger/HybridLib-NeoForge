@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "hybridlib:item/nether_ingot"
-
-  }
-}

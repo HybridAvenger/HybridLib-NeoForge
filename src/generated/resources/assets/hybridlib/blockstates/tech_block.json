@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hybridlib:block/tech_block"
+    }
+  }
+}
