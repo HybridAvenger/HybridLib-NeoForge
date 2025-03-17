@@ -5,6 +5,7 @@
     "hybridlib:tech_block",
     "hybridlib:tech_ore",
     "hybridlib:deepslate_euclase_ore",
-    "hybridlib:deepslate_tech_ore"
+    "hybridlib:deepslate_tech_ore",
+    "hybridlib:compressed_obsidian"
   ]
 }

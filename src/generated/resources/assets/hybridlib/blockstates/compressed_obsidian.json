@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hybridlib:block/compressed_obsidian"
+    }
+  }
+}

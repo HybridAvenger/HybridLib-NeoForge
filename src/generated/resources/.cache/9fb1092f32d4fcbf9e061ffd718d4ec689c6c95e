@@ -1,5 +1,6 @@
-// 1.21.1	2025-03-16T15:37:18.4903675	Recipes
+// 1.21.1	2025-03-16T19:32:52.8908438	Recipes
 ee48895cb8b61677c23876682c4d6f84b9cfe78b data/hybridlib/advancement/recipes/misc/aetherium_gem.json
+0fcaf9024999f12742b79b82b279be703e826e92 data/hybridlib/advancement/recipes/misc/compressed_obsidian.json
 56fee1bd03ac903790ac8445fe656de06c72502e data/hybridlib/advancement/recipes/misc/tech_block.json
 4d63c7db84c217af0ceb63e21fd4e0166340e431 data/hybridlib/advancement/recipes/misc/tech_ingot_from_blasting_deepslate_tech_ore.json
 2494daa47dd1b99e3931148172f11b2e8686d238 data/hybridlib/advancement/recipes/misc/tech_ingot_from_blasting_raw_tech.json
@@ -9,6 +10,7 @@ dec19e8ebbb330fdae7546f1976d9e3f76a9ea5c data/hybridlib/advancement/recipes/misc
 89a48e45d054953f6018bdf04f53b449d2248d12 data/hybridlib/advancement/recipes/misc/tech_ingot_from_smelting_raw_tech.json
 75ddb12b4a95b99afc90160af64ebbf52eedaa09 data/hybridlib/advancement/recipes/misc/tech_ingot_from_smelting_tech_ore.json
 237aaa1d7ef771e508548483e456e42c8eadc2ac data/hybridlib/recipe/aetherium_gem.json
+7efb12fe882114594b824f0d2f52f90d8316f311 data/hybridlib/recipe/compressed_obsidian.json
 e03ba566145d96c5553bc6f9b86e00bfce1d0580 data/hybridlib/recipe/tech_block.json
 8f8a8dc0289dbc8598e745f00996fc8c0a90705c data/hybridlib/recipe/tech_ingot_from_blasting_deepslate_tech_ore.json
 0fa0a57dde2c4ff9d3638ec1c5080d29e89c3b15 data/hybridlib/recipe/tech_ingot_from_blasting_raw_tech.json

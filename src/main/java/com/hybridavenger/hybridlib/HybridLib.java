@@ -5,7 +5,7 @@ import com.hybridavenger.hybridlib.item.ItemRegistry;
 
 
 import com.hybridavenger.hybridlib.item.ModCreativeModTabs;
-import net.minecraft.world.item.CreativeModeTabs;
+
 
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -17,7 +17,7 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 

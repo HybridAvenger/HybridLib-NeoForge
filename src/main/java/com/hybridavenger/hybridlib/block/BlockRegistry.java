@@ -44,10 +44,16 @@ public class BlockRegistry {
 
 
 
+
+
     //Blocks
     public static final DeferredBlock<Block> TECH_BLOCK = registerBlock("tech_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> COMPRESSED_OBSIDIAN = registerBlock("compressed_obsidian",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
 
 

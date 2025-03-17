@@ -3,11 +3,14 @@ package com.hybridavenger.hybridlib.datagen;
 import com.hybridavenger.hybridlib.HybridLib;
 import com.hybridavenger.hybridlib.block.BlockRegistry;
 import com.hybridavenger.hybridlib.item.ItemRegistry;
+import com.hybridavenger.hybridlib.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -44,6 +47,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         oreSmelting(recipeOutput, TECH_SMELTABLES, RecipeCategory.MISC, ItemRegistry.TECH_INGOT.get(), 0.25f, 200, "bismuth");
         oreBlasting(recipeOutput, TECH_SMELTABLES, RecipeCategory.MISC, ItemRegistry.TECH_INGOT.get(), 0.25f, 100, "bismuth");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, BlockRegistry.COMPRESSED_OBSIDIAN.get())
+                .requires(Blocks.OBSIDIAN)
+                .requires(Blocks.OBSIDIAN)
+                .unlockedBy("obsidian", has(BlockRegistry.COMPRESSED_OBSIDIAN))
+                .save(recipeOutput);
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

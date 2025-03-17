@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hybridlib:compressed_obsidian"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hybridlib:compressed_obsidian"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "obsidian"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hybridlib:compressed_obsidian"
+    ]
+  }
+}
