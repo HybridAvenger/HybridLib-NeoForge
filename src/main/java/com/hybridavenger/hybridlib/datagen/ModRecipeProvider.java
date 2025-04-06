@@ -45,8 +45,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_tech_block", has(BlockRegistry.TECH_BLOCK))
                 .save(recipeOutput, "hybridlib:tech_ingot_from_block");
 
-        oreSmelting(recipeOutput, TECH_SMELTABLES, RecipeCategory.MISC, ItemRegistry.TECH_INGOT.get(), 0.25f, 200, "bismuth");
-        oreBlasting(recipeOutput, TECH_SMELTABLES, RecipeCategory.MISC, ItemRegistry.TECH_INGOT.get(), 0.25f, 100, "bismuth");
+        oreSmelting(recipeOutput, TECH_SMELTABLES, RecipeCategory.MISC, ItemRegistry.TECH_INGOT.get(), 0.25f, 200, "tech");
+        oreBlasting(recipeOutput, TECH_SMELTABLES, RecipeCategory.MISC, ItemRegistry.TECH_INGOT.get(), 0.25f, 100, "tech");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, BlockRegistry.COMPRESSED_OBSIDIAN.get())
                 .requires(Blocks.OBSIDIAN)
