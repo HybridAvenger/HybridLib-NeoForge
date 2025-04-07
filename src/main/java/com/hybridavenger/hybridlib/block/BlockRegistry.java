@@ -1,7 +1,7 @@
 package com.hybridavenger.hybridlib.block;
 
 import com.hybridavenger.hybridlib.HybridLib;
-import com.hybridavenger.hybridlib.block.custom.PedestalBlock;
+import com.hybridavenger.hybridlib.block.custom.FusionChamberBlock;
 import com.hybridavenger.hybridlib.item.ItemRegistry;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -57,9 +57,8 @@ public class BlockRegistry {
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     //Other
-    public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal",
-            () -> new PedestalBlock(BlockBehaviour.Properties.of().noOcclusion()));
-
+    public static final DeferredBlock<Block> FUSION_CHAMBER = registerBlock("fusion_chamber",
+            () -> new FusionChamberBlock(BlockBehaviour.Properties.of()));
 
 
 

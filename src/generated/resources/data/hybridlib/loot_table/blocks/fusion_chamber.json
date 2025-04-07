@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "hybridlib:pedestal"
+          "name": "hybridlib:fusion_chamber"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "hybridlib:blocks/pedestal"
+  "random_sequence": "hybridlib:blocks/fusion_chamber"
 }

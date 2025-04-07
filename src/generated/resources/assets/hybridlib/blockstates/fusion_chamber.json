@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hybridlib:block/fusion_chamber"
+    }
+  }
+}

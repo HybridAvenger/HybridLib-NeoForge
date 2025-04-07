@@ -1,0 +1,10 @@
+{
+  "type": "hybridlib:fusion_chamber",
+  "ingredient": {
+    "count": 4,
+    "item": "hybridlib:aetherium_gem_fragment"
+  },
+  "result": {
+    "id": "hybridlib:aetherium_gem"
+  }
+}

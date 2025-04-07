@@ -25,7 +25,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(BlockRegistry.TECH_ORE.get())
                 .add(BlockRegistry.DEEPSLATE_EUCLASE_ORE.get())
                 .add(BlockRegistry.DEEPSLATE_TECH_ORE.get())
-                .add(BlockRegistry.PEDESTAL.get())
+                .add(BlockRegistry.FUSION_CHAMBER.get())
                 .add(BlockRegistry.COMPRESSED_OBSIDIAN.get());
 
 
