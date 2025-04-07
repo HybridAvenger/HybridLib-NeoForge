@@ -6,6 +6,7 @@ import com.hybridavenger.hybridlib.item.ItemRegistry;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
@@ -50,6 +51,26 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(Blocks.OBSIDIAN)
                 .requires(Blocks.OBSIDIAN)
                 .unlockedBy("obsidian", has(BlockRegistry.COMPRESSED_OBSIDIAN))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockRegistry.FUSION_CHAMBER.get())
+                .pattern("NAN")
+                .pattern("AFA")
+                .pattern("NAN")
+                .define('N', ItemRegistry.NETHER_INGOT.get())
+                .define('A', ItemRegistry.AETHERIUM_GEM.get())
+                .define('F', Blocks.BLAST_FURNACE)
+                .unlockedBy("has_nether", has(ItemRegistry.NETHER_INGOT)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ItemRegistry.NETHER_INGOT.get())
+                .requires(Items.NETHER_STAR)
+                .requires(ItemRegistry.DOUBLE_NETHERITE_INGOT)
+                .unlockedBy("netherite", has(ItemRegistry.DOUBLE_NETHERITE_INGOT.get()))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ItemRegistry.DOUBLE_NETHERITE_INGOT.get())
+                .requires(Items.NETHERITE_INGOT, 2)
+                .unlockedBy("netherite", has(Items.NETHERITE_INGOT))
                 .save(recipeOutput);
 
 

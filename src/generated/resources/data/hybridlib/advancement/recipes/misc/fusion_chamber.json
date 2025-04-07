@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hybridlib:nether_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hybridlib:fusion_chamber"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nether"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hybridlib:fusion_chamber"
+    ]
+  }
+}

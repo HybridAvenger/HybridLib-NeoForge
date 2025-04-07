@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "hybridlib:double_netherite_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "hybridlib:nether_ingot"
+  }
+}

@@ -14,5 +14,6 @@
   "item.hybridlib.aetherium_gem_fragment": "Aetherium Gem Fragment",
   "block.hybridlib.aetherium_ore": "Aetherium Ore",
   "block.hybridlib.euclase_ore": "Euclase Ore",
-  "block.hybridlib.deepslate_euclase_ore": "Deepslate Euclase Ore"
+  "block.hybridlib.deepslate_euclase_ore": "Deepslate Euclase Ore",
+  "block.hybridlib.fusion_chamber": "Fusion Chamber"
 }

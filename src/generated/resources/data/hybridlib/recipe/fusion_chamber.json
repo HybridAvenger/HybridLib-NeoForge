@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "hybridlib:aetherium_gem"
+    },
+    "F": {
+      "item": "minecraft:blast_furnace"
+    },
+    "N": {
+      "item": "hybridlib:nether_ingot"
+    }
+  },
+  "pattern": [
+    "NAN",
+    "AFA",
+    "NAN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "hybridlib:fusion_chamber"
+  }
+}

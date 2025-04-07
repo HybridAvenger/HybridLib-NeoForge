@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hybridlib:nether_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "netherite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hybridlib:double_netherite_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "netherite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hybridlib:nether_ingot"
+    ]
+  }
+}
