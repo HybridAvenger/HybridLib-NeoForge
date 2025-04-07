@@ -35,6 +35,7 @@ public class ModCreativeModTabs {
                         output.accept(BlockRegistry.DEEPSLATE_EUCLASE_ORE);
                         output.accept(BlockRegistry.DEEPSLATE_TECH_ORE);
                         output.accept(BlockRegistry.COMPRESSED_OBSIDIAN);
+                        output.accept(BlockRegistry.PEDESTAL);
 
 
                     }).build());

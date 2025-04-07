@@ -1,6 +1,8 @@
 package com.hybridavenger.hybridlib;
 
 import com.hybridavenger.hybridlib.block.BlockRegistry;
+import com.hybridavenger.hybridlib.entity.BlockEntities;
+import com.hybridavenger.hybridlib.entity.renderer.PedestalBlockEntityRenderer;
 import com.hybridavenger.hybridlib.item.ItemRegistry;
 
 
@@ -16,6 +18,8 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
 import net.neoforged.neoforge.common.NeoForge;
 
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
@@ -50,6 +54,8 @@ public class HybridLib
         ItemRegistry.ITEMS.register(modEventBus);
         BlockRegistry.BLOCKS.register(modEventBus);
 
+        BlockEntities.register(modEventBus);
+
         // Register the item to a creative tab
 
 
@@ -81,5 +87,13 @@ public class HybridLib
         {
 
         }
+    }
+
+
+
+
+    @SubscribeEvent
+    public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
+        event.registerBlockEntityRenderer(BlockEntities.PEDESTAL_BE.get(), PedestalBlockEntityRenderer::new);
     }
 }

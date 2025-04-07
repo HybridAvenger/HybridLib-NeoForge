@@ -1,8 +1,9 @@
-// 1.21.1	2025-03-16T19:32:52.8898429	Loot Tables
+// 1.21.1	2025-04-06T19:46:55.2164518	Loot Tables
 a145a80d4c6bb52d92bd6deb7f133e45a5edbebb data/hybridlib/loot_table/blocks/aetherium_ore.json
 d9733228b1d8890754dabbbad7f8bcf4d3a53dd7 data/hybridlib/loot_table/blocks/compressed_obsidian.json
 9d07e4817f216ba7cb22ef53cd2724505fbfb36d data/hybridlib/loot_table/blocks/deepslate_euclase_ore.json
 cb6df008e69071c4d5debb787f34815c152dfba6 data/hybridlib/loot_table/blocks/deepslate_tech_ore.json
 3afc729d64399c5e96755de930a96049c5f2b99d data/hybridlib/loot_table/blocks/euclase_ore.json
+32f85b0c63bc533ad233fd3fc041063e7f990d1a data/hybridlib/loot_table/blocks/pedestal.json
 e4b51e32fe78deac0849a290ff6a1d50da82acb8 data/hybridlib/loot_table/blocks/tech_block.json
 d156c8da1e9400d3b583aa1c3051a52d96c413bc data/hybridlib/loot_table/blocks/tech_ore.json

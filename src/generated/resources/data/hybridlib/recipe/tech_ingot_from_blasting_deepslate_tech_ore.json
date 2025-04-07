@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.25,
-  "group": "bismuth",
+  "group": "tech",
   "ingredient": {
     "item": "hybridlib:deepslate_tech_ore"
   },

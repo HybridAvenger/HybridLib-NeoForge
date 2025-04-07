@@ -1,6 +1,7 @@
 package com.hybridavenger.hybridlib.block;
 
 import com.hybridavenger.hybridlib.HybridLib;
+import com.hybridavenger.hybridlib.block.custom.PedestalBlock;
 import com.hybridavenger.hybridlib.item.ItemRegistry;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -55,11 +56,16 @@ public class BlockRegistry {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+    //Other
+    public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal",
+            () -> new PedestalBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
 
 
 
-   private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
+
+
+    private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
        DeferredBlock<T> toReturn = BLOCKS.register(name, block);
        registerBlockItem(name, toReturn);
        return toReturn;
