@@ -10,6 +10,7 @@ import com.hybridavenger.hybridlib.item.ModCreativeModTabs;
 
 import com.hybridavenger.hybridlib.recipe.ModRecipes;
 import com.hybridavenger.hybridlib.screen.ModMenuTypes;
+import com.hybridavenger.hybridlib.screen.custom.FusionChamberScreen;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -19,6 +20,7 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import net.neoforged.neoforge.common.NeoForge;
 
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
@@ -58,6 +60,7 @@ public class HybridLib
         ModMenuTypes.register(modEventBus);
         ModRecipes.register(modEventBus);
 
+
         // Register the item to a creative tab
 
 
@@ -89,13 +92,15 @@ public class HybridLib
         {
 
         }
+
+        @SubscribeEvent
+        public static void registerScreens(RegisterMenuScreensEvent event) {
+            event.register(ModMenuTypes.FUSION_CHAMBER_MENU.get(), FusionChamberScreen::new);
+        }
     }
 
 
 
 
-    /* @SubscribeEvent
-       public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
-       event.registerBlockEntityRenderer(BlockEntities.PEDESTAL_BE.get(), PedestalBlockEntityRenderer::new);
-    } */
+
 }

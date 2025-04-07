@@ -57,7 +57,7 @@ public class BlockRegistry {
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     //Other
-    public static final DeferredBlock<Block> FUSION_CHAMBER = registerBlock("fusion_chamber",
+    public static final DeferredBlock<FusionChamberBlock> FUSION_CHAMBER = registerBlock("fusion_chamber",
             () -> new FusionChamberBlock(BlockBehaviour.Properties.of()));
 
 
