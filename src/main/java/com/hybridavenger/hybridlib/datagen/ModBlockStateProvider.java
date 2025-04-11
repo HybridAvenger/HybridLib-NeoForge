@@ -22,6 +22,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(BlockRegistry.DEEPSLATE_TECH_ORE);
         blockWithItem(BlockRegistry.COMPRESSED_OBSIDIAN);
         blockWithItem(BlockRegistry.FUSION_CHAMBER);
+        blockWithItem(BlockRegistry.EUCLASE_BLOCK);
 
     }
 

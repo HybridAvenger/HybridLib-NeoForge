@@ -22,7 +22,7 @@ public class VanillaToolTier {
             1250, 4.0F, 1.0F, 5, () -> Ingredient.of(ItemTags.STONE_TOOL_MATERIALS));
 
     public static final Tier COPPER = new SimpleTier(BlockTags.INCORRECT_FOR_STONE_TOOL,
-            1500, 4.5F, 1.5F, 15, () -> Ingredient.of(ItemTags.STONE_TOOL_MATERIALS));
+            1500, 4.5F, 1.5F, 15, () -> Ingredient.of(Items.COPPER_INGOT));
 
     public static final Tier IRON = new SimpleTier(BlockTags.INCORRECT_FOR_IRON_TOOL,
             2500, 6.0F, 2.0F, 14, () -> Ingredient.of(Items.IRON_INGOT));
@@ -31,7 +31,7 @@ public class VanillaToolTier {
             750, 15.0F, 0.0F, 22, () -> Ingredient.of(Items.GOLD_INGOT));
 
     public static final Tier DIAMOND = new SimpleTier(BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
-            5000, 8.0F, 3.0F, 10, () -> Ingredient.of(Items.IRON_INGOT));
+            5000, 8.0F, 3.0F, 10, () -> Ingredient.of(Items.DIAMOND));
 
     public static final Tier EMERALD = new SimpleTier(BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
             6000, 6.0F, 5.0F, 14, () -> Ingredient.of(Items.EMERALD));
@@ -40,7 +40,7 @@ public class VanillaToolTier {
             8000, 7.0F, 5.0F, 14, () -> Ingredient.of(BlockRegistry.COMPRESSED_OBSIDIAN));
 
     public static final Tier NETHERITE = new SimpleTier(BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
-            10000, 9.0F, 5.0F, 14, () -> Ingredient.of(Items.EMERALD));
+            10000, 9.0F, 5.0F, 14, () -> Ingredient.of(Items.NETHERITE_INGOT));
 
 
 

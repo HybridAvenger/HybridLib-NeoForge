@@ -52,13 +52,19 @@ public class BlockRegistry {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+    public static final DeferredBlock<Block> EUCLASE_BLOCK = registerBlock("euclase_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(6f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
     public static final DeferredBlock<Block> COMPRESSED_OBSIDIAN = registerBlock("compressed_obsidian",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
-    //Other
+    //Machines and Furnaces
     public static final DeferredBlock<FusionChamberBlock> FUSION_CHAMBER = registerBlock("fusion_chamber",
             () -> new FusionChamberBlock(BlockBehaviour.Properties.of()));
+
+
 
 
 

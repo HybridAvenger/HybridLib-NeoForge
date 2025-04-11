@@ -21,12 +21,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(BlockRegistry.AETHERIUM_ORE.get())
                 .add(BlockRegistry.EUCLASE_ORE.get())
+                .add(BlockRegistry.EUCLASE_BLOCK.get())
                 .add(BlockRegistry.TECH_BLOCK.get())
                 .add(BlockRegistry.TECH_ORE.get())
                 .add(BlockRegistry.DEEPSLATE_EUCLASE_ORE.get())
                 .add(BlockRegistry.DEEPSLATE_TECH_ORE.get())
                 .add(BlockRegistry.FUSION_CHAMBER.get())
                 .add(BlockRegistry.COMPRESSED_OBSIDIAN.get());
+
 
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)

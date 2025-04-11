@@ -62,7 +62,7 @@ public class FusionChamberBlock extends BaseEntityBlock {
         if (!pLevel.isClientSide()) {
             BlockEntity entity = pLevel.getBlockEntity(pPos);
             if(entity instanceof FusionChamberBlockEntity fusionChamberBlockEntity) {
-                ((ServerPlayer) pPlayer).openMenu(new SimpleMenuProvider(fusionChamberBlockEntity, Component.literal("Fusion Chamber")), pPos);
+                ((ServerPlayer) pPlayer).openMenu(new SimpleMenuProvider(fusionChamberBlockEntity, Component.translatable("block.hybridlib.fusion_chamber")), pPos);
             } else {
                 throw new IllegalStateException("Our Container provider is missing!");
             }

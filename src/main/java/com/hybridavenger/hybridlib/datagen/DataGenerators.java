@@ -39,6 +39,13 @@ public class DataGenerators {
         generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));
 
-        //generator.addProvider(event.includeClient(), new ModLanguageProvider(packOutput));
+
+        //Languages(WIP)
+        generator.addProvider(event.includeClient(), new EnglishLanguageProvider(packOutput, "en_us"));
+        generator.addProvider(event.includeClient(), new FrenchLanguageProvider(packOutput, "fr_fr"));
+        //generator.addProvider(event.includeClient(), new SpanishLanguageProvider(packOutput, "es_mx"));
+        //generator.addProvider(event.includeClient(), new ItalianLanguageProvider(packOutput, "it_it"));
+        //generator.addProvider(event.includeClient(), new JapaneseLanguageProvider(packOutput, "ja_jp"));
+
     }
 }

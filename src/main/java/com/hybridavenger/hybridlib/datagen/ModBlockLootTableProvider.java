@@ -32,6 +32,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(BlockRegistry.TECH_BLOCK.get());
         dropSelf(BlockRegistry.COMPRESSED_OBSIDIAN.get());
         dropSelf(BlockRegistry.FUSION_CHAMBER.get());
+        dropSelf(BlockRegistry.EUCLASE_BLOCK.get());
+
 
         add(BlockRegistry.AETHERIUM_ORE.get(),
                 block -> createMultipleOreDrops(BlockRegistry.AETHERIUM_ORE.get(), ItemRegistry.AETHERIUM_GEM_FRAGMENT.get(), 1, 2));

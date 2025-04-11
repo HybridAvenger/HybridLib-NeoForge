@@ -31,11 +31,13 @@ public class ModCreativeModTabs {
                         output.accept(BlockRegistry.AETHERIUM_ORE);
                         output.accept(BlockRegistry.TECH_ORE);
                         output.accept(BlockRegistry.TECH_BLOCK);
+                        output.accept(BlockRegistry.EUCLASE_BLOCK);
                         output.accept(BlockRegistry.EUCLASE_ORE);
                         output.accept(BlockRegistry.DEEPSLATE_EUCLASE_ORE);
                         output.accept(BlockRegistry.DEEPSLATE_TECH_ORE);
                         output.accept(BlockRegistry.COMPRESSED_OBSIDIAN);
                         output.accept(BlockRegistry.FUSION_CHAMBER);
+
 
 
                     }).build());

@@ -39,10 +39,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', ItemRegistry.AETHERIUM_GEM_FRAGMENT.get())
                 .unlockedBy("has_aetherium", has(ItemRegistry.AETHERIUM_GEM)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlockRegistry.EUCLASE_BLOCK.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ItemRegistry.EUCLASE_GEM.get())
+                .unlockedBy("has_euclase", has(ItemRegistry.EUCLASE_GEM)).save(recipeOutput);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ItemRegistry.TECH_INGOT.get(), 9)
                 .requires(BlockRegistry.TECH_BLOCK)
                 .unlockedBy("has_tech_block", has(BlockRegistry.TECH_BLOCK))
                 .save(recipeOutput, "hybridlib:tech_ingot_from_block");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ItemRegistry.EUCLASE_GEM.get(), 9)
+                .requires(BlockRegistry.EUCLASE_BLOCK)
+                .unlockedBy("has_euclase_block", has(BlockRegistry.EUCLASE_BLOCK))
+                .save(recipeOutput, "hybridlib:euclase_gem_from_block");
 
         oreSmelting(recipeOutput, TECH_SMELTABLES, RecipeCategory.MISC, ItemRegistry.TECH_INGOT.get(), 0.25f, 200, "tech");
         oreBlasting(recipeOutput, TECH_SMELTABLES, RecipeCategory.MISC, ItemRegistry.TECH_INGOT.get(), 0.25f, 100, "tech");
@@ -72,6 +84,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(Items.NETHERITE_INGOT, 2)
                 .unlockedBy("netherite", has(Items.NETHERITE_INGOT))
                 .save(recipeOutput);
+
 
 
     }

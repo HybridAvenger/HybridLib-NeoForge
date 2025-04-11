@@ -1,8 +1,9 @@
-// 1.21.1	2025-04-07T09:16:25.9253431	Block States: hybridlib
+// 1.21.1	2025-04-07T23:43:47.8917118	Block States: hybridlib
 37e052a9c3e2935beedcdc52f0e1023def9047da assets/hybridlib/blockstates/aetherium_ore.json
 c32538cee53a5b9a2e24839039b54472a9de1f06 assets/hybridlib/blockstates/compressed_obsidian.json
 be8b79742f1b12ae357a6267a61b1398075ec30a assets/hybridlib/blockstates/deepslate_euclase_ore.json
 766ff774af68c0e9e6d170d41c6f64c7390fb1d1 assets/hybridlib/blockstates/deepslate_tech_ore.json
+d62a8af07645d2eb66a023d23d38d81f0ee8b320 assets/hybridlib/blockstates/euclase_block.json
 3610df59102c20e998d933be681b4a5748828471 assets/hybridlib/blockstates/euclase_ore.json
 b6ecb37c7d98406c5f14ae375e3ac039ce16f112 assets/hybridlib/blockstates/fusion_chamber.json
 b575cc256ff57906a0373a2ae4cd5634dee82e1a assets/hybridlib/blockstates/tech_block.json
@@ -11,6 +12,7 @@ ab22c99916d20a95a5bea00684c68e5346fbdc01 assets/hybridlib/models/block/aetherium
 3a8f03d12f731b513304f16a185ad843e66892b9 assets/hybridlib/models/block/compressed_obsidian.json
 bb5fe2b364d46e47c0eddd663600c00123a16b79 assets/hybridlib/models/block/deepslate_euclase_ore.json
 51ab2e482189d3cdb157503244a55a62414f81f2 assets/hybridlib/models/block/deepslate_tech_ore.json
+22e19e4edb3a3e30b047ce24bffd9a710b8ef3ad assets/hybridlib/models/block/euclase_block.json
 e8014fd626b0ddff9da9b72775f05086861084ad assets/hybridlib/models/block/euclase_ore.json
 61aec58f6d903b24f60f9f723eeaa013b8279dd7 assets/hybridlib/models/block/fusion_chamber.json
 576bb0ed9ace1f4b8db6661466289aa7611ae13c assets/hybridlib/models/block/tech_block.json
@@ -19,6 +21,7 @@ f16adf42810481cc83991d6669731fffe0ac95be assets/hybridlib/models/block/tech_ore.
 b3a9deaff475a382f419d24c6d050d612cb9523e assets/hybridlib/models/item/compressed_obsidian.json
 c4399bacc06583f340123bd120c1a6c991e8fce6 assets/hybridlib/models/item/deepslate_euclase_ore.json
 06b9d5e79ebf8d83cf2d16025388f38531f981d4 assets/hybridlib/models/item/deepslate_tech_ore.json
+c459d6a4b5e753d7f252bf9b91e3c664a7027362 assets/hybridlib/models/item/euclase_block.json
 921f1261b84ec92ba23e2bdadd77daa2508e55c5 assets/hybridlib/models/item/euclase_ore.json
 e54d710407f4448be4c00fc2e83cdbcbeb464d09 assets/hybridlib/models/item/fusion_chamber.json
 2d3a588cc67c434182beeb3d6c1834fcbf97a5c7 assets/hybridlib/models/item/tech_block.json

@@ -4,18 +4,14 @@ import com.hybridavenger.hybridlib.HybridLib;
 import com.hybridavenger.hybridlib.block.BlockRegistry;
 import com.hybridavenger.hybridlib.item.ItemRegistry;
 import net.minecraft.data.PackOutput;
-import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
-public class ModLanguageProvider extends LanguageProvider
+public class EnglishLanguageProvider extends LanguageProvider
 {
-    public ModLanguageProvider(PackOutput output, String modid, String locale) {
-        super(output, modid, locale);
+    public EnglishLanguageProvider(PackOutput output, String locale) {
+        super(output, HybridLib.MOD_ID, locale);
 
     }
-
-
-
 
     @Override
     protected void addTranslations() {
@@ -36,7 +32,9 @@ public class ModLanguageProvider extends LanguageProvider
         add(BlockRegistry.DEEPSLATE_EUCLASE_ORE.get(), "Deepslate Euclase Ore");
         add(BlockRegistry.TECH_ORE.get(), "Tech Ore");
         add(BlockRegistry.EUCLASE_ORE.get(), "Euclase Ore");
+        add(BlockRegistry.EUCLASE_BLOCK.get(), "Block of Euclase");
         add(BlockRegistry.FUSION_CHAMBER.get(), "Fusion Chamber");
+
 
         add("creativetab.hybridlib.hybridtab", "Hybrid Library Mod");
     }

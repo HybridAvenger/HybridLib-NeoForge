@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hybridlib:euclase_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "hybridlib:euclase_gem"
+  }
+}

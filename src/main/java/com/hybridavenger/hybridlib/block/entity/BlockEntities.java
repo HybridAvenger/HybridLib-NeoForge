@@ -18,6 +18,8 @@ public class BlockEntities  {
             BLOCK_ENTITIES.register("fusion_chamber_be", () -> BlockEntityType.Builder.of(
                     FusionChamberBlockEntity::new, BlockRegistry.FUSION_CHAMBER.get()).build(null));
 
+
+
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
     }

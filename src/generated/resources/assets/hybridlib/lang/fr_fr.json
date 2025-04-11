@@ -1,0 +1,19 @@
+{
+  "block.hybridlib.aetherium_ore": "Minerai d'étherium",
+  "block.hybridlib.compressed_obsidian": "Obsidienne compressée",
+  "block.hybridlib.deepslate_euclase_ore": "Minerai d'euclase d'ardoise profonde",
+  "block.hybridlib.deepslate_tech_ore": "Minerai technologique Deepslate",
+  "block.hybridlib.euclase_block": "Bloc d'Euclase",
+  "block.hybridlib.euclase_ore": "Minerai d'euclase",
+  "block.hybridlib.fusion_chamber": "Chambre de fusion",
+  "block.hybridlib.tech_block": "Bloc de technologie",
+  "block.hybridlib.tech_ore": "Minerai technologique",
+  "creativetab.hybridlib.hybridtab": "Mod de bibliothèque hybride",
+  "item.hybridlib.aetherium_gem": "Gemme d'étherium",
+  "item.hybridlib.aetherium_gem_fragment": "Fragment de gemme d'étherium",
+  "item.hybridlib.double_netherite_ingot": "Lingot de Netherite double",
+  "item.hybridlib.euclase_gem": "Gemme d'Euclase",
+  "item.hybridlib.nether_ingot": "Lingot du Néant",
+  "item.hybridlib.raw_tech": "Technologie brute",
+  "item.hybridlib.tech_ingot": "Lingot technologique"
+}
